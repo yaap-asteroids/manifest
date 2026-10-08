@@ -16,14 +16,14 @@
            revision="refs/heads/seventeen" />
 
   <!-- General -->
-  <project path="art" name="art" remote="yaap" />
+  <project path="art" name="art" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
-  <project path="bionic" name="bionic" remote="yaap" />
+  <project path="bionic" name="bionic" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="manifest" name="manifest" remote="yaap" />
 
   <!-- Build -->
-  <project path="build/make" name="build_make" remote="yaap" >
+  <project path="build/make" name="build_make" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" >
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -71,12 +71,12 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap-asteroids" revision="refs/heads/seventeen-oneui" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap-asteroids" revision="refs/heads/seventeen-oneui" />
+  <project path="frameworks/base" name="frameworks_base" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
-  <project path="frameworks/native" name="frameworks_native" remote="yaap-asteroids" revision="refs/heads/seventeen-oneui" />
+  <project path="frameworks/native" name="frameworks_native" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="yaap" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="yaap" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" />
   <project path="frameworks/rs" name="frameworks_rs" remote="yaap" />
@@ -122,7 +122,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap-asteroids" revision="refs/heads/seventeen-oneui" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
@@ -132,21 +132,21 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="yaap" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="yaap" />
-  <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="yaap" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
-  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
+  <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="packages/modules/UprobeStats" name="packages_modules_UprobeStats" remote="yaap" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
   <project path="packages/providers/BookmarkProvider" name="packages_providers_BookmarkProvider" remote="yaap" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="yaap" />
   <project path="packages/providers/CallLogProvider" name="packages_providers_CallLogProvider" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="yaap" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
@@ -161,7 +161,7 @@
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/bpf" name="system_bpf" remote="yaap" />
-  <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/core" name="system_core" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="yaap" />
   <project path="system/libvintf" name="system_libvintf" remote="yaap" />
@@ -169,7 +169,7 @@
   <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
 
@@ -185,4 +185,16 @@
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap-asteroids" revision="refs/heads/seventeen-oneui" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
+
+  <!-- Sandboxed Google Play (GrapheneOS gmscompat) -->
+  <project path="libcore" name="libcore" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk,sysui-studio" />
+  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk" />
+  <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk" />
+  <project path="tools/metalava" name="tools_metalava" remote="yaap-asteroids" revision="refs/heads/seventeen-sandbox" groups="pdk,tools" />
+  <project path="external/AppCompatConfig" name="external_AppCompatConfig" remote="yaap-asteroids" revision="refs/heads/17" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="yaap-asteroids" revision="refs/heads/17" />
+  <project path="packages/apps/AppCompatConfig" name="packages_apps_AppCompatConfig" remote="yaap-asteroids" revision="refs/heads/17" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="yaap-asteroids" revision="refs/heads/17" />
 </manifest>

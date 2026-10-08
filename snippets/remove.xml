@@ -112,4 +112,12 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/fs/fs_mgr" />
   <remove-project name="platform/tools/apksig" />
+
+  <!-- Sandboxed Google Play (GrapheneOS gmscompat) -->
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/packages/modules/AppSearch" />
+  <remove-project name="platform/packages/modules/ConfigInfrastructure" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/system/tools/aidl" />
+  <remove-project name="platform/tools/metalava" />
 </manifest>
