@@ -111,7 +111,9 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <!-- Lineage based Trebuchet with the -1 screen client, and its Glance feed -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Trebuchet" remote="yaap-asteroids" />
+  <project path="packages/apps/Launcher3Feed" name="packages_apps_Launcher3Feed" remote="yaap-asteroids" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
