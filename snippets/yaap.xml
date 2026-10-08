@@ -11,6 +11,10 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/seventeen" />
 
+  <remote  name="yaap-asteroids"
+           fetch="https://github.com/yaap-asteroids"
+           revision="refs/heads/seventeen" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
@@ -67,7 +71,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/base" name="frameworks_base" remote="yaap-asteroids" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -176,7 +180,7 @@
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="seventeen" clone-depth="1" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaap-asteroids" revision="refs/heads/seventeen-dualshade" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
 </manifest>
